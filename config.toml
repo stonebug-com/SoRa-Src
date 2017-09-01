@@ -1,0 +1,287 @@
+# Tranquilpeak
+# Version : 0.3.1-BETA
+# Author : Thibaud Leprêtre
+
+# I STRONGLY recommend you to use a CDN to speed up loading of pages.
+# There is many free CDN like Cloudinary or you can also use indirectly
+# by using services like Google Photos.
+
+# If you want to store images yourself, please read this guidelines:
+# For users, if you only use this theme, put your images directly in `source/assets/images` folder
+# But if you want to add local images, you can put your images directly in `source/assets/images` folder
+# For developpers, if you modify this theme, put your images in `source/images` folder and
+# use grunt task `build` to synchronize assets
+
+baseurl = "http://www.ateliersora.ch/"
+theme = "hugo-tranquilpeak-theme"
+languageCode = "de-ch"
+
+defaultContentLanguage = "de-ch"
+title = "Atelier SoRa - Specially made for you"
+# disqusShortname = "atelier-sora"
+googleAnalytics = "UA-102245212-1"
+paginate = 7
+canonifyurls = true
+
+[permalinks]
+  post = "/:year/:month/:slug/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive = "archives"
+
+[author]
+  name = "Atelier SoRa"
+  bio = "Specially made for **you**"
+  job = "eidg. dipl. Damenschneiderin, Schnitt-Technikerin STF"
+  location = "Pfannenstielstr. 5,<br>CH-8132 Egg<br>079 / 462 50 43"
+  picture = "/images/logo.jpg"
+  # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
+  # gravatarEmail = "thibaud.lepretre@gmail.com"
+  # Your profile picture
+  # Overwritten by your gravatar image if `author.gravatarEmail` is filled
+  # picture = "https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png"
+  # Your Twitter username without the @. E.g : thibaudlepretre
+  # twitter = "thibaudlepretre"
+  # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
+  # googlePlus = "+ThibaudLepretre"
+
+[params]
+  # Customize date format use to render blog post date, categories and other
+  # You must use date format used by Go Time package https://golang.org/pkg/time/
+  # Months (not work with short month like "jan", "feb", etc) are translated if translation exists on i18n folders
+  # Default format is: January 2, 2006 
+  dateFormat = "2. January 2006"
+
+  # Global keywords configuration. Following keywords will be add to every pages
+  # keywords = ["development", "next-gen"]
+
+  # Hide sidebar on all article page to let article take full width to improve reading, and enjoy wide images and cover images. (true: enable, false: disable)
+  clearReading = true
+
+  # Define categories will create hierarchy between parents: `categories = ["foo", "bar"]` will consider "bar" a sub-category of "foo". 
+  # If false it will flat categories.
+  hierarchicalCategories = true
+
+  description = "Hugo tranquilpeak theme demo"
+
+  # Customization
+  # Define the behavior of the sidebar
+  # 1: Display extra large sidebar on extra large screen, large sidebar on large screen,
+  #    medium sidebar on medium screen and header bar on small screen and
+  # extra large sidebar is swiped on extra large screen and large sidebar on all lower screen (default)
+  # 2: Display large sidebar on large screen, medium sidebar on medium screen and
+  #    header bar on small screen and large sidebar is swiped
+  # 3: Display medium sidebar on large and medium screen and header bar on small screen and
+  #    medium sidebar is swiped
+  # 4: Display header bar on all screens, extra large sidebar is swiped on extra large screen and
+  #    large sidebar is swiped on all lower screens
+  # 5: Display header bar on all screens and large sidebar is swiped on large screen
+  # 6: Display header bar on all screens and medium sidebar is swiped
+  sidebarBehavior = 1
+
+  # Your blog cover picture. I STRONGLY recommend you to use a CDN to speed up loading of pages.
+  # There is many free CDN like Cloudinary or you can also use indirectly
+  # by using services like Google Photos.
+  # Current image is on AWS S3 and delivered by AWS CloudFront.
+  # Otherwise put your image in folder `static/_images/` (development)  or in `source/assets/images/` if you can't or don't want to build the theme,
+  # and use relative url : `your-image.png`
+  coverImage = "cover.jpg"
+
+  # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
+  imageGallery = true
+
+  # Display thumbnail image of each post on index pages (false: disabled, true: enabled)
+  thumbnailImage = true
+  # Display thumbnail image at the right of title in index pages (`right`, `left` or `bottom`)
+  # Set this value to `right` if you have old posts to keep the old style on them
+  # and define `thumbnailImagePosition` on a post to overwrite this setting
+  thumbnailImagePosition = "bottom"
+  # Automatically select the cover image or the first photo from the gallery of a post if there is no thumbnail image as the thumbnail image
+  # Set this value to `true` if you have old posts that use the cover image or the first photo as the thumbnail image
+  # and set `autoThumbnailImage` to `false` on a post to overwrite this setting
+  autoThumbnailImage = true
+
+  # Your favicon path, default is "/favicon.png"
+  # favicon = "/favicon.png"
+
+  # Header configuration
+  # The link at the right of the header is customizable
+  # You can add a link (as an icon) at the right of the header instead of the author's gravatar image or author's picture.
+  # By default, author's gravatar or author's picture is displayed.
+  #     url: /#search
+  #     icon: search
+  #     class: st-search-show-outputs
+
+  # Custom CSS. Put here your custom CSS files. They are loaded after the theme CSS;
+  # they have to be referred from static root. Example
+  # customCSS = ["css/foo.css"]
+
+  # Custom JS. Put here your custom JS files. They are loaded after the theme JS;
+  # they have to be referred from static root. Example
+  # customJS = ["js/foo.js"]
+
+  [params.header.rightLink]
+    class = ""
+    icon = ""
+    url = "/#about"
+
+  # Customize like of athor avatar in sidebar
+  # [params.sidebar.profile]
+  #   url = "/#about"
+
+  # Customize copyright value "© 2016 <CUSTOMIZATION>. All Rights Reserved"
+  # [params.footer]
+  #   copyright = "<a href=\"https://github.com/kakawait\">kakawait</a>"
+
+# Menu Configuration
+[[menu.main]]
+  weight = 1
+  identifier = "home"
+  name = "Home"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-home\"></i>"
+  url = "/"
+[[menu.main]]
+  weight = 2
+  identifier = "sale"
+  name = "Sale"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-shopping-basket\"></i>"
+  url = "/tags/sale"
+[[menu.main]]
+  weight = 3
+  identifier = "tailoring"
+  name = "Tailoring"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-industry\"></i>"
+  url = "/tags/tailoring"
+[[menu.main]]
+  weight = 4
+  identifier = "consulting"
+  name = "Consulting"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-handshake-o\"></i>"
+  url = "/tags/consulting"
+[[menu.main]]
+  weight = 5
+  identifier = "patterns"
+  name = "Patterns"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-scissors \"></i>"
+  url = "/tags/patterns"
+[[menu.main]]
+  weight = 6
+  identifier = "uniques"
+  name = "Uniques"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-archive\"></i>"
+  url = "/2016/11/Anfertigungen/"
+[[menu.main]]
+  weight = 7
+  identifier = "changes"
+  name = "Changes"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-hand-scissors-o\"></i>"
+  url = "/tags/changes"
+[[menu.main]]
+  weight = 8
+  identifier = "projects"
+  name = "Projects"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-cogs\"></i>"
+  url = "/tags/projects"
+[[menu.main]]
+  weight = 9
+  identifier = "media"
+  name = "media"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-video-camera\"></i>"
+  url = "/tags/media"
+[[menu.main]]
+  weight = 10
+  identifier = "about"
+  name = "About"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
+  url = "/#about"
+
+# Category Titles
+  [params.tag.sale]
+    title = "Verkauf"
+    meta = "Ausgewählte Produkte, handgemacht, swiss made"
+    body = "Ob Kleider aus der neusten Kollektion von 'paradis des innocents', handgewobene Schals von Susanne Vontobel oder kleine Geschenksartikel wie Täschli, Sitzkissen, Traumfänger oder handgemalte Magnetli, bei uns finden Sie was Sie suchen.<hr>"
+    banner = "images/banner-sale.jpg"
+
+  [params.tag.tailoring]
+    title = "Schneiderei"
+    body = "Alles was aus Stoff erschaffen werden kann, vom Kleid bis zur Werkzeugtasche, wird im Atelier SoRa hergestellt.<hr>"
+    banner = "images/bannner-tailoring.jpg"
+
+  [params.tag.consulting]
+    title = "Beratung"
+    body = "Ihre Wünsche werden kombiniert mit Fachwissen, Kreativität und modischem Flair.<hr>"
+    banner = "images/banner-consulting.jpg"
+
+  [params.tag.patterns]
+    title = "Schnittmuster"
+    body = "Wenn sie gerne für sich selber etwas nähen, erstelle ich Ihnen den passenden Schnitt.<hr>"
+    banner = "images/banner-patterns.jpg"
+
+  [params.tag.changes]
+    title = "Änderungen"
+    meta = "Hat ihr Lieblingsstück eine Optimierung nötig? Bringen sie es vorbei!"
+    body = "Neue Sachen kürzen oder verlängern, auch im Outdoorbereich. Flickarbeiten aller Art.<hr"
+    banner = "images/banner-changes.jpg"
+
+  [params.tag.projects]
+    title = "Projekte"
+    meta = "Fantastische Träume werden Realität."
+    body = "Aus Leidenschaft erarbeite ich in Zusammenarbeit mit interessanten Menschen neue Produkte.<hr>"
+    banner = "images/banner-projects.jpg"
+
+  [params.tag.media]
+    title = "Medien"
+    meta = "Was andere über das Atelier SoRa sagen."
+    body = "Hier finden Sie Zeitungsartikel, Medienberichte, Hinweise zu Veranstaltungen und weitere Informationen über das Atelier SoRa.<hr>"
+    banner = "images/banner-media.jpg"
+
+# Category Titles
+  [params.category.sale]
+    title = "Verkauf"
+    meta = "Bei uns finden Sie was Sie suchen"
+    body = "Im Ateilier SoRa finden Sie <b>aus einer Vielzahl von ausgesuchten Kleidern</b> das passende für sich. Wir beraten Sie gerne und kompetent.<hr>"
+    banner = "images/banner-sale.jpg"
+
+  [params.category.tailoring]
+    title = "Schneiderei"
+    meta = "Alles was aus Stoff erschaffen werden kann, vom Kleid bis zur Werkzeugtasche."
+    body = "Unsere Schneider macht alles, damit Ihnen unsere Kleider passen. Dies geht von Änderungen an Off-The-Shelf-Produkten bis zu eigens für Sie kreierten und handgenähten Kleidern.<hr>"
+    banner = "images/bannner-tailoring.jpg"
+
+  [params.category.consulting]
+    title = "Beratung"
+    meta = "Ihre Wünsche werden kombiniert mit Fachwissen, Kreativität und modischem Flair."
+    body = "Unsere Schneider macht alles, damit Ihnen unsere Kleider passen. Dies geht von Änderungen an Off-The-Shelf-Produkten bis zu eigens für Sie kreierten und handgenähten Kleidern.<hr>"
+    banner = "images/banner-consulting.jpg"
+
+  [params.category.patterns]
+    title = "Schnittmuster"
+    meta = "Wenn sie gerne für sich selber etwas nähen, erstelle ich Ihnen den passenden Schnitt."
+    body = "In unserer Schneiderei tun wir alles dafür, dass Ihnen unsere Kleider passen. Dies geht von Änderungen an Of-The-Shelf-Produkten bis zu eigens für Sie kreierten und handgenähten Kleidern.<hr>"
+    banner = "images/banner-patterns.jpg"
+
+  [params.category.uniques]
+    title = "Einzelstücke"
+    meta = "Modische Kleidungsstücke, aus der Kollektion von paradis des innocents, bereichern das Sortiment."
+    body = "Unsere Schneider macht alles, damit Ihnen unsere Kleider passen. Dies geht von Änderungen an Kleidern von der Stange bis zu eigens für Sie kreierten und handgenähten Kleidern.<hr>"
+    banner = "images/banner.jpg"
+
+  [params.category.changes]
+    title = "Änderungen"
+    meta = "Hat ihr Lieblingsstück eine Optimierung nötig? Bringen sie es vorbei!"
+    body = "Ich mache alles, damit Ihnen Ihre Kleider passen. Dies geht von Änderungen an Kleidern von der Stange bis zu eigens für Sie kreierten und handgenähten Kleidern.<hr>"
+    banner = "images/banner-changes.jpg"
+
+  [params.category.projects]
+    title = "Projekte"
+    meta = "Aus ihren Träumen wird Realität."
+    body = "Ich lasse ihre Träume wahr werden und setze ihre Projekte in die Realität um. Dabei erstelle ich Skizzen und Schnittmuster, ich schneide und nähe und passe das fertige Produkt ihre Form an.<hr>"
+    banner = "images/banner-projects.jpg"
+
+  [params.category.media]
+    title = "Medien"
+    meta = "Was andere über das Atelier SoRa sagen."
+    body = "Hier finden Sie Zeitungsartikel, Medienberichte, Hinweise zu Veranstaltungen und weitere Informationen über das Atelier SoRa.<hr>"
+    banner = "images/banner-media.jpg"

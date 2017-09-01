@@ -1,0 +1,32 @@
+{{ with index .Site.Params.category .Data.Term }}
+  <article class="postShorten postShorten--thumbnailimg-top" itemscope itemType="http://schema.org/BlogPosting">
+    <div class="postShorten-wrap">
+      {{ if .banner }}
+        <a href="">
+          <div class="postShorten-thumbnailimg">
+              <img alt="" itemprop="image" src={{ .banner | absURL }} />
+          </div>
+        </a>
+      {{ end }}
+      {{ if .title }}
+        <div class="postShorten-header">
+          <h1 class="postShorten-title" itemprop="headline">
+            <a class="link-unstyled" href="">
+                {{ .title | safeHTML }}
+            </a>
+          </h1>
+        </div>
+      {{ end }}
+      {{ if .meta }}
+        <div class="postShorten-meta post-meta">
+          {{ .meta | safeHTML }}
+        </div>
+      {{ end }}
+      {{ if .body }}
+        <div class="postShorten-excerpt" itemprop="articleBody">
+          {{ printf "%s" .body | safeHTML }}
+        </div>
+      {{ end }}
+    </div>
+  </article>
+{{ end }}
