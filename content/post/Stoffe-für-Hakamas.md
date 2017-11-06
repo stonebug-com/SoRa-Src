@@ -15,5 +15,5 @@ metaAlignment: center
 showTags: false
 showSocial: false
 ---
-{{< image classes="fancybox nocaption fig-100" src="/img/stoff-hakamas-1-800.jpg" thumbnail="/img/stoff-hakamas-1.jpg" >}} <p>
-{{< image classes="fancybox nocaption fig-100" src="/img/stoff-hakamas-2-800.jpg" thumbnail="/img/stoff-hakamas-2.jpg">}} 
+{{< image classes="fancybox nocaption fig-100" src="/img/stoff-hakamas-1-800.jpg" thumbnail="/img/stoff-hakamas-1-800.jpg" >}} <p>
+{{< image classes="fancybox nocaption fig-100" src="/img/stoff-hakamas-2-800.jpg" thumbnail="/img/stoff-hakamas-2-800.jpg">}} 
