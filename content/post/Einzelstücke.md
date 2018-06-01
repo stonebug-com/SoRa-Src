@@ -1,6 +1,6 @@
 ---
 title: "Anfertigungen"
-date: 2017-09-29
+date: 2018-06-01
 thumbnailImagePosition: left
 thumbnailImage: img/anfertigungen-140.jpg
 categories:
@@ -12,7 +12,14 @@ showSocial: false
 showPagination: false
 
 gallery:
-- /gallery/IMG_1280.jpg
+- /gallery/DSCN8729.jpg
+- /gallery/DSCN8743.jpg
+- /gallery/IMG_1416.jpg
+- /gallery/IMG_1563.jpg
+- /gallery/IMG_1567.jpg
+- /gallery/IMG_1627.jpg
+- /gallery/IMG_1628.jpg
+- /gallery/IMG_1633.jpg
 - /gallery/IMG_1281.jpg
 - /gallery/Batikbluse1.jpg
 - /gallery/Latscha1.1.jpg

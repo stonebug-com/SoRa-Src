@@ -171,7 +171,7 @@ canonifyurls = true
   identifier = "uniques"
   name = "Uniques"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-archive\"></i>"
-  url = "/2017/09/Anfertigungen/"
+  url = "/2018/06/Anfertigungen/"
 [[menu.main]]
   weight = 7
   identifier = "changes"
