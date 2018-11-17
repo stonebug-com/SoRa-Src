@@ -186,18 +186,30 @@ canonifyurls = true
   url = "/tags/projects"
 [[menu.main]]
   weight = 9
+  identifier = "trainings"
+  name = "trainings"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-graduation-cap\"></i>"
+  url = "/tags/trainings"
+[[menu.main]]
+  weight = 10
+  identifier = "artist"
+  name = "artist"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-paint-brush\"></i>"
+  url = "/tags/artist"
+[[menu.main]]
+  weight = 11
   identifier = "media"
   name = "media"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-video-camera\"></i>"
   url = "/tags/media"
 [[menu.main]]
-  weight = 10
+  weight = 12
   identifier = "about"
   name = "About"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
   url = "/#about"
 
-# Category Titles
+# Tag Titles
   [params.tag.sale]
     title = "Verkauf"
     meta = "Ausgewählte Produkte, handgemacht, swiss made"
@@ -230,6 +242,17 @@ canonifyurls = true
     meta = "Fantastische Träume werden Realität."
     body = "Aus Leidenschaft erarbeite ich in Zusammenarbeit mit interessanten Menschen neue Produkte.<hr>"
     banner = "images/banner-projects.jpg"
+
+  [params.tag.trainings]
+    title = "Nähkurse"
+    meta = "Ab Januar 2019!"
+    body = "Nähkurse ab Januar 2019! Info und Anmeldung bei Rahel Sonderegger: 079 462 50 43<hr>"
+    banner = "images/banner-trainings.jpg"
+
+  [params.tag.artist]
+    title = "Meet the Artist"
+    body = "An Events der Serie 'Meet the Artist' treffen Sie verschiedene Künstler im Atelier SoRa.<hr>"
+    banner = "images/banner-artist.jpg"
 
   [params.tag.media]
     title = "Medien"
@@ -276,9 +299,21 @@ canonifyurls = true
 
   [params.category.projects]
     title = "Projekte"
-    meta = "Aus ihren Träumen wird Realität."
+    meta = "Fantastische Träume werden Realität."
     body = "Ich lasse ihre Träume wahr werden und setze ihre Projekte in die Realität um. Dabei erstelle ich Skizzen und Schnittmuster, ich schneide und nähe und passe das fertige Produkt ihre Form an.<hr>"
     banner = "images/banner-projects.jpg"
+
+  [params.category.trainings]
+    title = "Nähkurse"
+    meta = "Ab Januar 2019!"
+    body = "Nähkurse ab Januar 2019! Info und Anmeldung bei Rahel Sonderegger: 079 462 50 43<hr>"
+    banner = "images/banner-trainings.jpg"
+
+  [params.category.artist]
+    title = "Meet the Artist"
+    meta = "Ab Januar 2019!"
+    body = "An Events der Serie 'Meet the Artist' treffen Sie verschiedene Künstler im Atelier SoRa.<hr>"
+    banner = "images/banner-artist.jpg"
 
   [params.category.media]
     title = "Medien"

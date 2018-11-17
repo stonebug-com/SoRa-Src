@@ -2,11 +2,11 @@
 title: "Meet the Artist"
 date: 2017-12-20
 categories:
-- media
+- artist
 tags:
-- media
+- artist
 keywords:
-- changes
+- artist
 autoThumbnailImage: false
 thumbnailImagePosition: "left"
 thumbnailImage: /img/Meet-The-Artist-2018-01-12-140.jpg

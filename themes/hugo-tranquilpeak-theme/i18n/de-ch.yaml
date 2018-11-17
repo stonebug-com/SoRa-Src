@@ -23,6 +23,12 @@
 - id: "global.projects"
   translation: "Projekte"
 
+- id: "global.trainings"
+  translation: "Nähkurse"
+
+- id: "global.artist"
+  translation: "Meet the Artist"
+
 - id: "global.media"
   translation: "Medien"
 

@@ -12,6 +12,16 @@ showSocial: false
 showPagination: false
 
 gallery:
+- /gallery/IMG_2667.jpg
+- /gallery/IMG_3340.jpg
+- /gallery/IMG_3320.jpg
+- /gallery/IMG_2633.jpg
+- /gallery/IMG_2635.jpg
+- /gallery/IMG_2657.jpg
+- /gallery/IMG_2707.jpg
+- /gallery/IMG_2773.jpg
+- /gallery/IMG_3166.jpg
+- /gallery/IMG_3351.jpg
 - /gallery/DSCN8729.jpg
 - /gallery/DSCN8743.jpg
 - /gallery/IMG_1416.jpg
@@ -31,8 +41,11 @@ gallery:
 - /gallery/IMG_1023.jpg
 - /gallery/IMG_1078.jpg
 - /gallery/IMG_0523.jpg
+- /gallery/IMG_1280.jpg
+- /gallery/IMG_0258.jpg
 - /gallery/IMG_0661.jpg
 - /gallery/IMG_0780.jpg
+- /gallery/20170604.jpg
 ---
 
 Diese Stücke wurden auf Kundenwunsch angefertigt.
