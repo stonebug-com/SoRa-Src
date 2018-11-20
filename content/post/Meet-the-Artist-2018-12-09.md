@@ -16,3 +16,6 @@ showTags: false
 showSocial: false
 ---
 Am Sonntag 9. Dezember
+
+{{< image classes="fancybox nocaption fig-100" src="/img/Meet-The-Artist-2018-12-09-01.jpg" thumbnail="/img/Meet-The-Artist-2018-12-09-01.jpg" >}} <p>
+{{< image classes="fancybox nocaption fig-100" src="/img/Meet-The-Artist-2018-12-09-02.jpg" thumbnail="/img/Meet-The-Artist-2018-12-09-02.jpg">}}
