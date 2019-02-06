@@ -1,6 +1,6 @@
 ---
 title: "Nähkurse ab Januar 2019!"
-date: 2018-11-15
+date: 2019-02-06
 categories:
 - trainings
 tags:
@@ -15,6 +15,7 @@ metaAlignment: center
 showTags: false
 showSocial: false
 ---
-Info und Anmeldung bei Rahel Sonderegger: 079 462 50 43
+<center>Info und Anmeldung bei Rahel Sonderegger: 079 462 50 43</center>
 
-<p>{{< image classes="fancybox nocaption fig-100" src="/img/Nähkurs.jpg" thumbnail="/img/Nähkurs.jpg">}} 
+<p><center>{{< image classes="fancybox nocaption fig-100" src="/img/Nähkurs-2.jpg" thumbnail="/img/Nähkurs-2.jpg">}}</center>
+<p><center>{{< image classes="fancybox nocaption fig-100" src="/img/Nähkurs.jpg" thumbnail="/img/Nähkurs.jpg">}}</center>

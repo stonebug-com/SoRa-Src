@@ -1,6 +1,6 @@
 ---
 title: "Anfertigungen"
-date: 2018-06-01
+date: 2019-02-05
 thumbnailImagePosition: left
 thumbnailImage: img/anfertigungen-140.jpg
 categories:
@@ -12,6 +12,7 @@ showSocial: false
 showPagination: false
 
 gallery:
+- /gallery/IMG_4205.jpg
 - /gallery/IMG_2667.jpg
 - /gallery/IMG_3340.jpg
 - /gallery/IMG_3320.jpg
