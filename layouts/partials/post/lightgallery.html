@@ -1,0 +1,22 @@
+{{ if and .Site.Params.imageGallery .Params.lightgallery }}
+  {{ $galleryLength := len .Params.lightgallery }}
+  {{ $imageGalleryClass := "" }}
+  {{ if gt $galleryLength 0 }}
+    <div id="lightGallery">
+        {{ range $index, $element := .Params.lightgallery }}
+          {{ $image := (split $element " ") }}
+          {{ $imageLength := len $image }}
+          {{ if gt $imageLength 2 }}
+            {{ $.Scratch.Set "title" (index $image 2) }}
+          {{ else }}
+            {{ $.Scratch.Set "title" (index $image 1) }}
+          {{ end }}
+          {{ $.Scratch.Set "title" (replace (replace ($.Scratch.Get "title") "_" " ") "\"" "") }}
+            <a class="" href="{{ index $image 0 }}">
+              <img class="img-responsive" src="{{ if gt $imageLength 1 }}{{ index $image 1 }}{{ else }}{{ index $image 0 }}{{ end }}" />
+              <div class="magnifier"><img src="/images/zoom.png"></div>
+            </a>
+        {{ end }}
+    </div>
+  {{ end }}
+{{ end }}
