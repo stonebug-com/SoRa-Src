@@ -32,6 +32,7 @@ lightgallery:
 - /gallery/MeetTheArtist/0269.jpg /gallery/MeetTheArtist/0269-200.jpg
 - /gallery/MeetTheArtist/0280.jpg /gallery/MeetTheArtist/0280-200.jpg
 - /gallery/MeetTheArtist/0281.jpg /gallery/MeetTheArtist/0281-200.jpg
+- /gallery/MeetTheArtist/0328.jpg /gallery/MeetTheArtist/0328-200.jpg
 - /gallery/MeetTheArtist/0291.jpg /gallery/MeetTheArtist/0291-200.jpg
 - /gallery/MeetTheArtist/0294.jpg /gallery/MeetTheArtist/0294-200.jpg
 - /gallery/MeetTheArtist/0301.jpg /gallery/MeetTheArtist/0301-200.jpg
