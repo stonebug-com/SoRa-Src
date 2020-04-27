@@ -35,7 +35,7 @@ canonifyurls = true
   name = "Atelier SoRa"
   bio = "Specially made for **you**"
   job = "eidg. dipl. Damenschneiderin, Schnitt-Technikerin STF"
-  location = "Pfannenstielstr. 5,<br>CH-8132 Egg<br>079 / 462 50 43"
+  location = "Pfannenstielstr. 5,<br>CH-8132 Egg<br>079 / 462 50 43<br>rs@ateliersora.ch"
   picture = "/images/logo.jpg"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   # gravatarEmail = "thibaud.lepretre@gmail.com"
