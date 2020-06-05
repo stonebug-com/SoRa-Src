@@ -300,7 +300,7 @@ canonifyurls = true
   [params.category.projects]
     title = "Projekte"
     meta = "Fantastische Träume werden Realität."
-    body = "Ich lasse ihre Träume wahr werden und setze ihre Projekte in die Realität um. Dabei erstelle ich Skizzen und Schnittmuster, ich schneide und nähe und passe das fertige Produkt ihre Form an.<hr>"
+    body = "Ich lasse ihre Träume wahr werden und setze ihre Projekte in die Realität um. Dabei erstelle ich Skizzen und Schnittmuster, ich schneide und nähe und passe das fertige Produkt ihrer Form an.<hr>"
     banner = "images/banner-projects.jpg"
 
   [params.category.trainings]
