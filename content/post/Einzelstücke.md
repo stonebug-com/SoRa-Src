@@ -12,6 +12,16 @@ showSocial: false
 showPagination: false
 
 lightgallery:
+- /gallery/IMG_8575.jpg /gallery/IMG_8575-200.jpg
+- /gallery/IMG_7239.jpg /gallery/IMG_7239-200.jpg
+- /gallery/IMG_7384.jpg /gallery/IMG_7384-200.jpg
+- /gallery/IMG_7408.jpg /gallery/IMG_7408-200.jpg
+- /gallery/IMG_8086.jpg /gallery/IMG_8086-200.jpg
+- /gallery/IMG_8244.jpg /gallery/IMG_8244-200.jpg
+- /gallery/IMG_8323.jpg /gallery/IMG_8323-200.jpg
+- /gallery/IMG_8781.jpg /gallery/IMG_8781-200.jpg
+- /gallery/IMG_8850.jpg /gallery/IMG_8850-200.jpg
+- /gallery/IMG_8999.jpg /gallery/IMG_8999-200.jpg
 - /gallery/IMG_4205.jpg /gallery/IMG_4205-200.jpg
 - /gallery/IMG_2667.jpg /gallery/IMG_2667-200.jpg
 - /gallery/IMG_3340.jpg /gallery/IMG_3340-200.jpg

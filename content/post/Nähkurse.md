@@ -1,5 +1,5 @@
 ---
-title: "Nähkurse ab Januar 2019!"
+title: "Nähkurse auf Anfrage"
 date: 2019-02-06
 categories:
 - trainings

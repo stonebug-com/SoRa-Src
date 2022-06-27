@@ -1,5 +1,5 @@
 ---
-title: "Hirsesäckli-Video"
+title: "Anleitung zum Spielen"
 date: 2021-03-11
 categories:
 - media
@@ -16,7 +16,7 @@ showTags: false
 showSocial: false
 ---
 <center>
-Die neuen Hirsesäckli Videos sind da.
+Die Hirsesäckli werden im Atelier SoRa exklusiv für die ZhdK (Zürcher Hochschule der Künste) aus Baumwollpopeline hergestellt und mit Bio-Goldhirse gefüllt.
 <p>
 <iframe width="840" height="472" src="https://www.youtube.com/embed/XxmbVkDj1FU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p>
