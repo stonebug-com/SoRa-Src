@@ -37,4 +37,4 @@ Schönes weiter nutzen.
 
 <!--more-->
 Aus ökologischen und energetischen Gründen macht es Sinn, die Kleider, die man hat und gerne mag, so zu verändern, dass sie wieder getragen werden können. Die Möglichkeiten sind grenzenlos.<p>
-Fotos vom Shooting Carol Sulser:
+Fotos vom Shooting Carol:
